@@ -52,8 +52,11 @@ button {
 }
 
 .character-highlights {
-  text-transform: capitalize;
   font-size: 30px;
+  font-family: adobe caslon Pro;
+  color: #000000;
+  margin: 0 auto;
+  width: 39%;
 }
 
 .flexybox {
@@ -67,7 +70,7 @@ button {
   align-items: center;
   margin-left: -150px;
   margin-right: -150px;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 #jackson-image {
@@ -75,9 +78,9 @@ button {
 }
 
 .personal-title {
-  width: 300px;
-  margin-left: 30px;
-  margin-right: 60px;
+  width: 571px;
+
+
 }
 
 .sources {
@@ -85,10 +88,15 @@ button {
   align-items: center;
 }
 
-.analysis-style {
+#letter-analysis {
   position: absolute;
   top: 44px;
   left: 360px;
+  opacity: 0;
+}
+
+#letter-analysis.visible {
+  opacity: 1;
 }
 
 h4 {
@@ -103,6 +111,8 @@ font-family: adobe-caslon-pro;
 font-weight: 400;
 font-size: 30px;
 font-style: normal;
+margin: 0 auto;
+width: 50%;
 }
 
 h6 {
@@ -125,5 +135,13 @@ h3,
 h4,
 h6,
 p {
-  color: #000000
+  color: #000000;
+}
+
+h2,
+h3,
+h4,
+p {
+  margin: 0 auto;
+  width: 60%;
 }
