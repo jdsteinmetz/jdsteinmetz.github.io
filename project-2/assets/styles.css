@@ -177,6 +177,11 @@ a.races {
   margin-left: 1055px;
 }
 
+a.races:hover {
+  background-color: #000630;
+  color: #E9E9E9;
+}
+
 button {
   height: 60px;
   background-color: #E9E9E9;
@@ -186,6 +191,11 @@ button {
   font-family: roboto;
   color: #F28D14;
   text-align: center;
+}
+
+button:hover {
+  color: #E9E9E9;
+  background-color: #F28D14;
 }
 
 .image-container {
@@ -225,6 +235,10 @@ button {
   top: 44.5%;
   width: 5%;
   left: 58.95%;
+}
+
+.invisible {
+  opacity: 0;
 }
 
 #vine {
