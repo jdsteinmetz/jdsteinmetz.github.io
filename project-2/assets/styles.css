@@ -21,7 +21,7 @@ h2 {
   font-family: roboto-condensed, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 48px;
+  font-size: 36px;
   color: #000630;
 }
 
@@ -39,7 +39,7 @@ h4 {
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
-  color: #FF6702;
+  color: #F28D14;
 
   }
 
@@ -59,11 +59,22 @@ a {
 
 .article {
   color:black;
+  margin-left: 300px;
 }
 
 .groups {
-  color:#FF6702;
-  background-color: gray;
+  color:#F28D14;
+  background-color: #E9E9E9;
+  padding: 15px;
+  text-decoration: none;
+  font-family: roboto, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 25px;
+}
+
+.connect-container {
+  margin-left: 25px;
 }
 
 section.header {
@@ -84,6 +95,10 @@ nav a {
   display: block;
   width: 20%;
   text-align: center;
+}
+
+.page-header {
+  margin-left: 25px;
 }
 
 .page {
@@ -119,9 +134,142 @@ nav a {
 }
 
 .box {
-  background-color: #FF6702;
-  align-content: center;
-  width: 100%;
-  height: 576px;
+  width: 1024px;
+  margin-top: 15px;
+}
+
+.spotlight-container {
+  position: relative;
+  margin-left: 300px;
+}
+.justin-photo {
+  width: 250px;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.jason-photo {
+  width: 250px;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.justin {
+  margin-top: 130px;
+}
+
+.schedule {
+  background-color: #E9E9E9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin-bottom: 25px;
+}
+
+a.races {
+  background-color: #E9E9E9;
+  color: #000630;
+  font-size: 18px;
+  font-family: roboto;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 1055px;
+}
+
+button {
+  height: 60px;
+  background-color: #E9E9E9;
+  position: relative;
+  z-index: 999;
+  font-size: 24px;
+  font-family: roboto;
+  color: #F28D14;
   text-align: center;
+}
+
+.image-container {
+  position: relative;
+}
+
+.image-container img#vine {
+  position: absolute;
+  width: 11.5%;
+  left: 54.5%;
+  top: 0;
+}
+
+.image-container img#bridge {
+  position: absolute;
+  top: 17%;
+  left: 38%;
+  width: 13%;
+}
+
+.image-container img#millrace {
+  position: absolute;
+  width: 6.25%;
+  left: 42.5%;
+  top: 33%;
+}
+
+.image-container img#orchard {
+  position: absolute;
+  top: 46.5%;
+  left: 39%;
+  width: 12.5%;
+}
+
+.image-container img#fidler {
+  position: absolute;
+  top: 44.5%;
+  width: 5%;
+  left: 58.95%;
+}
+
+#vine {
+  opacity: 0;
+}
+
+#vine.visible {
+  opacity: 1;
+}
+
+#bridge {
+  opacity: 0;
+}
+
+#bridge.visible {
+  opacity: 1;
+}
+
+#millrace {
+  opacity: 0;
+}
+
+#millrace.visible {
+  opacity: 1;
+}
+
+#orchard {
+  opacity: 0;
+}
+
+#orchard.visible {
+  opacity: 1;
+}
+
+#fidler {
+  opacity: 0;
+}
+
+#fidler.visible {
+  opacity: 1;
+}
+
+.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }

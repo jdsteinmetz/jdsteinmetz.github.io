@@ -5,6 +5,8 @@
       <title>Run IN Goshen</title>
       <link rel="stylesheet" href="https://use.typekit.net/kql1njd.css">
       <link rel="stylesheet" href="styles.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="toggle.js"></script>
     </head>
 
     <body>
@@ -22,13 +24,22 @@
       </section>
 
       <div>
-        <h2>Routes</h2>
+        <h2 class="page-header">Routes:</h2>
       </div>
+      <div class="image-container">
+        <img src="map.svg" alt="map" class="map">
+        <img src="vine.svg" alt="outline of pumpkinvine route" id="vine">
+        <img src="bridge loop.svg" alt="outline of bridge loop route" id="bridge">
+        <img src="millrace.svg" alt="outline of millrace route" id="millrace">
+        <img src="orchard loop.svg" alt="outline of orchard loop route" id="orchard">
+        <img src="fidler.svg" alt="outline of fidler's pond route" id="fidler">
+      </div>
+
       <div>
-        <h4>Pumpkinvine Nature Trail</h4>
-        <h4>Millrace</h4>
-        <h4>Fidler's Pond</h4>
-        <h4>Orchard Loop</h4>
-        <h4>Bridge Loop</h4>
+        <button id="vine-button">Pumpkinvine Nature Trail</button>
+        <button id="millrace-button">Millrace</button>
+        <button id="fidler-button">Fidler's Pond</button>
+        <button id="orchard-button">Orchard Loop</button>
+        <button id="bridge-button">Bridge Loop</button>
       </div>
     </body>
