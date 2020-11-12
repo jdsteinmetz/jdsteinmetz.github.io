@@ -1,0 +1,92 @@
+/* This is the stylesheet for Exercise 9 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-size: 20px;
+}
+
+header {
+  background-color:#7B8EB3;
+  color:#000000;
+  text-align:center;
+  padding: 3em;
+}
+
+footer {
+  background-color:#7B9834;
+  color:#ffffff;
+  text-align: center;
+}
+
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #431D06;
+}
+
+h1 {
+  font-size: 4em;
+  color:#431D06;
+  font-family: 'Amatic SC', cursive;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #431D06;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+  color: #431D06;
+}
+
+img {
+  width: 100%;
+}
+
+footer img {
+  width: 25%;
+}
+
+/********** Media Queries *************/
+
+/* Tablet Styles */
+@media screen and (min-width:775px) {
+  body {
+    font-size: 18px;
+    color: purple;
+    padding: 30px;
+  }
+
+
+}
+
+
+/* Desktop Styles */
+@media screen and (min-width:1055px) {
+  section {
+    width: 60vw;
+    margin:0 auto;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+p,
+  .row img {
+    margin: 5em 0;
+  }
+
+  .row img,
+  .row p {
+    width: 45%;
+  }
+}
